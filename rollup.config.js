@@ -22,7 +22,7 @@ export default [
       copy({
         targets: [
           { src: 'src/images/**/*', dest: 'dist/images/' },
-          { src: 'src/css/**/*', dest: 'demo/css/' }
+          { src: 'src/css/**/*', dest: 'demo/css/' },
           { src: 'package.json', dest: 'dist/' }
         ]
       })

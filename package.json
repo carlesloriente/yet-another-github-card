@@ -1,6 +1,6 @@
 {
   "name": "yet-another-github-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another github card profile for use it on your social-networks, blogs or portfolio.",
   "main": "dist/yagc.js",
   "type": "module",

@@ -24,7 +24,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org/'
       - run: |
           npm ci
-          npm run compile
+          npm run build
       - name: Apply version bump (major)
         if: contains(github.event.pull_request.labels.*.name, 'major')
         run: cd dist/ && npm version major --git-tag-version

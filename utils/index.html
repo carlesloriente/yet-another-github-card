@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <title>Github-card</title>
+    <link rel="stylesheet" href="./css/theme-light.css" id="theme-link">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon_io/site.webmanifest">
+    <script type="text/javascript">
+      function setTheme() {
+        selectElement = document.querySelector('#theme');
+        output = selectElement.value;
+        document.querySelector('html').setAttribute('data-theme', output);
+        document.getElementById('theme-link').setAttribute('href', './css/theme-' + output + '.css');
+      }
+      function setStyle() {
+        selectElement = document.querySelector('#style');
+        output = selectElement.value;
+        document.querySelector('github-card').setAttribute('data-style', output);
+      }
+    </script>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body onload="setTheme();">
+    <div style="max-width:1200px;text-align:center;">
+      <p>Theme:
+        <select id="theme">
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+      </select>
+      <button onclick="setTheme()">Change theme</button> 
+      | Style:
+        <select id="style">
+          <option value="defaultTheme">Default</option>
+          <option value="cloud">Cloud</option> 
+          <option value="polygon">Polygon</option>
+        </select>
+        <button onclick="setStyle()">Change style</button>
+      </p>
+    </div>
+    <github-card data-style="defaultTheme" data-user="carlesloriente" data-user-stars="true" data-user-stats='[{"name": "commits"}, {"name": "contributions"}, {"name": "followers"}, {"name": "following"}, {"name": "prs"}]'></github-card>
+    <script type="module" src="./yagc.js"></script>
+  </body>
+</html>

@@ -192,4 +192,4 @@ Thanks to you.
 
 ## Copyright and License
 
-Copyright (c) 2024 Carles Loriente. Code released under the [MIT](https://github.com/carlesloriente/yet-another-github-card/blob/master/LICENSE) license.
+Copyright (c) 2025 Carles Loriente. Code released under the [MIT](https://github.com/carlesloriente/yet-another-github-card/blob/master/LICENSE) license.

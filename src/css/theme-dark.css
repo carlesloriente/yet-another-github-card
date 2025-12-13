@@ -1,0 +1,10 @@
+/* theme-dark.css */
+:root {
+  --body-bg: #1e1e1e;
+  --body-color: #BBB;
+  --body-color-a: #2f9fdf;
+  --avatar-border-color: #1e1e1e;
+  --stars-color: darkslategrey;
+  --stats-name-color: #777777;
+  --svg-color-a: invert(54%) sepia(21%) saturate(1461%) hue-rotate(158deg) brightness(97%) contrast(100%);
+}

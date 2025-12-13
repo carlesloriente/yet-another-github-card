@@ -1,0 +1,45 @@
+name: publish-release
+on:
+  pull_request:
+    branches:
+      - main
+    types:
+      - closed
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    environment:
+      name: release
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Setup node, test and build
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.19'
+          registry-url: 'https://registry.npmjs.org/'
+      - run: |
+          npm ci
+          npm run build
+      - name: Apply version bump (major)
+        if: contains(github.event.pull_request.labels.*.name, 'major')
+        run: cd dist/ && npm version major --git-tag-version
+      - name: Apply version bump (minor)
+        if: contains(github.event.pull_request.labels.*.name, 'minor')
+        run: cd dist/ && npm version minor --git-tag-version
+      - name: Apply version bump (patch)
+        if: contains(github.event.pull_request.labels.*.name, 'patch')
+        run: cd dist/ && npm version patch --git-tag-version
+      - name: Git push version bump
+        run: git push origin main --follow-tags --force
+      - id: set-version
+        name: Output version change
+        run: npm pkg get version
+      - name: Publish npm package
+        run: cd dist/ && npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPMPUBTOKEN}}

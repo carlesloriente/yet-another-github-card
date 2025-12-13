@@ -1,0 +1,10 @@
+/* theme-light.css */
+:root {
+  --body-bg: #fff;
+  --body-color: #000;
+  --body-color-a: #1e3266;
+  --avatar-border-color: #fff;
+  --stars-color: darkslategrey;
+  --stats-name-color: #555555;
+  --svg-color-a: invert(16%) sepia(61%) saturate(2814%) hue-rotate(232deg) brightness(100%) contrast(87%);
+}

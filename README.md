@@ -75,7 +75,7 @@ You'll find all the required directories and files within the download, logicall
 
 ### Including the card in your portfolio site
 
-Get your HTML embed code at [yagc](https://yagc.notesoncloudcomputing.com/index.html#embedcode), fill in the form with your GitHub username and grab the result code.
+Get your HTML embed code at [yagc](https://yagc.nocc.dev/index.html#embedcode), fill in the form with your GitHub username and grab the result code.
 
 ## Documentation
 
@@ -105,10 +105,11 @@ The package folder structure looks like this:
 
 ```filesystem
   yet-another-github-card/
-  ├─ src/
-  |  ├─ css/
-  |  ├─ images/
-  |  └─ themes/
+  ├─ css/
+  ├─ images/
+  |  ├─ docs/
+  |  ├─ favicon_io/
+  ├─ themes/
   └─ utils/
      └─ js/
 ```

@@ -1,6 +1,6 @@
 {
   "name": "yet-another-github-card",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Yet another github card profile for use it on your social-networks, blogs or portfolio.",
   "main": "dist/yagc.js",
   "type": "module",
@@ -45,18 +45,18 @@
     "developer"
   ],
   "devDependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/preset-env": "^7.24.5",
-    "@rollup/plugin-babel": "^6.0.4",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@rollup/plugin-babel": "^6.1.0",
     "@rollup/plugin-terser": "^0.4.4",
-    "babel-jest": "^29.7.0",
+    "babel-jest": "^30.2.0",
     "eslint": "^9.1.1",
     "http-server": "^14.1.1",
-    "jest": "^29.7.0",
+    "jest": "^30.2.0",
     "rollup": "^4.17.2",
     "rollup-plugin-copy": "^3.5.0"
   },
   "dependencies": {
-    "countup.js": "^2.8.0"
+    "countup.js": "^2.9.0"
   }
 }

@@ -24,7 +24,8 @@ export default [
           { src: 'src/images/**/*', dest: 'dist/images/' },
           { src: 'src/css/**/*', dest: 'demo/css/' },
           { src: 'package.json', dest: 'dist/' },
-          { src: '*.md', dest: 'dist/' }
+          { src: '*.md', dest: 'dist/' },
+          { src: 'LICENSE', dest: 'dist/' }
         ]
       })
     ]

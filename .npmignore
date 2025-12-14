@@ -8,4 +8,8 @@ rollup.config.js
 package-lock.json
 techstack.md
 techstack.yml
-
+demo/
+dist/
+node_modules/
+src/
+utils/

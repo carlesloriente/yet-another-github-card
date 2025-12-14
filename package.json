@@ -5,9 +5,7 @@
   "main": "dist/yagc.js",
   "type": "module",
   "module": "dist/yagc.js",
-  "files": [
-    "dist/**/*"
-  ],
+  "files": ["**/*"],
   "scripts": {
     "lint": "eslint .",
     "build": "rollup -c",

@@ -1,6 +1,6 @@
 # Yet Another Github Card - Show your developer skills in social networks
 
-[![YAGC logo](./src/images/docs/yagc-showroom.png)](https://yagc.nocc.dev)
+[![YAGC logo](./images/docs/yagc-showroom.png)](https://yagc.nocc.dev)
 
 [![yagc package](https://img.shields.io/npm/v/yet-another-github-card?logo=npm&logoColor=fff)](https://www.npm.im/yet-another-github-card)
 [![NPM Downloads](https://img.shields.io/npm/dm/yet-another-github-card)](https://www.npm.im/yet-another-github-card)
@@ -128,15 +128,15 @@ At the moment, three prebuilt themes are available. Feel free to design unique c
 
 #### 1. DefaultTheme
 
-![YAGC defaultTheme](./src/images/docs/yagc-themes-style_default.png)
+![YAGC defaultTheme](./images/docs/yagc-themes-style_default.png)
 
 #### 2. Cloud
 
-![YAGC cloud](./src/images/docs/yagc-themes-style_cloud.png)
+![YAGC cloud](./images/docs/yagc-themes-style_cloud.png)
 
 #### 3. Polygon
 
-![YAGC polygon](./src/images/docs/yagc-themes-style_polygon.png)
+![YAGC polygon](./images/docs/yagc-themes-style_polygon.png)
 
 ### Local Demo card
 

@@ -6,6 +6,26 @@
   "type": "module",
   "module": "dist/yagc.js",
   "files": ["**/*"],
+  "homepage": "https://yagc.nocc.dev/",
+  "author": "Carles Loriente (https://www.notesoncloudcomputing.com/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlesloriente/yet-another-github-card.git"
+  },
+  "bugs": {
+    "url": "https://github.com/carlesloriente/yet-another-github-card/issues"
+  },
+  "funding": [
+    {
+      "type": "GitHub",
+      "url": "https://github.com/sponsors/carlesloriente"
+    },
+    {
+      "type": "ko-fi",
+      "url": "https://ko-fi.com/carlesloriente"
+    }
+  ],
   "scripts": {
     "lint": "eslint .",
     "build": "rollup -c",
@@ -24,8 +44,6 @@
     "html5",
     "developer"
   ],
-  "author": "Carles Loriente",
-  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.24.5",
     "@babel/preset-env": "^7.24.5",

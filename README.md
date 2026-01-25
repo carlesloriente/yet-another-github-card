@@ -75,7 +75,12 @@ You'll find all the required directories and files within the download, logicall
 
 ### Including the card in your portfolio site
 
-Get your HTML embed code at [yagc](https://yagc.nocc.dev/index.html#embedcode), fill in the form with your GitHub username and grab the result code.
+Include the YAGC in your HTML, copy and paste the following code replacing data-user with your GitHub username:
+
+```html
+  <github-card data-style="defaultTheme" data-user="carlesloriente" data-user-stars="true" data-user-stats='[{"name": "commits"}, {"name": "contributions">
+  <script type="module" src="https://unpkg.com/yet-another-github-card@1.0.7/yagc.min.js"></script>
+```
 
 ## Documentation
 
@@ -103,7 +108,7 @@ Select your favourite package manager and follow the instructions below.
 
 The package folder structure looks like this:
 
-```filesystem
+```filesystem (node_modules)
   yet-another-github-card/
   ├─ css/
   ├─ images/
@@ -193,4 +198,4 @@ Thanks to you.
 
 ## Copyright and License
 
-Copyright (c) 2025 Carles Loriente. Code released under the [MIT](https://github.com/carlesloriente/yet-another-github-card/blob/master/LICENSE) license.
+Copyright (c) 2026 Carles Loriente. Code released under the [MIT](https://github.com/carlesloriente/yet-another-github-card/blob/master/LICENSE) license.

@@ -78,8 +78,8 @@ You'll find all the required directories and files within the download, logicall
 Include the YAGC in your HTML, copy and paste the following code replacing data-user with your GitHub username:
 
 ```html
-  <github-card data-style="defaultTheme" data-user="carlesloriente" data-user-stars="true" data-user-stats='[{"name": "commits"}, {"name": "contributions">
-  <script type="module" src="https://unpkg.com/yet-another-github-card@1.0.9/yagc.min.js"></script>
+  <github-card data-style="defaultTheme" data-user="carlesloriente" data-user-stars="true" data-user-stats='[{"name": "commits"}, {"name": "contributions"}]'></github-card> 
+  <script type="module" src="https://unpkg.com/yet-another-github-card@1.0.10/yagc.min.js"></script>
 ```
 
 ## Documentation

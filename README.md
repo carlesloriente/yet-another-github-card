@@ -79,7 +79,7 @@ Include the YAGC in your HTML, copy and paste the following code replacing data-
 
 ```html
   <github-card data-style="defaultTheme" data-user="carlesloriente" data-user-stars="true" data-user-stats='[{"name": "commits"}, {"name": "contributions">
-  <script type="module" src="https://unpkg.com/yet-another-github-card@1.0.7/yagc.min.js"></script>
+  <script type="module" src="https://unpkg.com/yet-another-github-card@1.0.9/yagc.min.js"></script>
 ```
 
 ## Documentation
